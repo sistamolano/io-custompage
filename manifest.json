@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "angelamolano",
   "name": "store-theme",
-  "version": "5.1.0",
+  "version": "0.1.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -13,6 +13,8 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.search-result": "3.x",
+    "vtex.search": "2.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
@@ -26,7 +28,6 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
-    "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
